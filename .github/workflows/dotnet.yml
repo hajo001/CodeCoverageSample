@@ -30,4 +30,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage"
     - name: Codecov
-      uses: codecov/codecov-action@v3.2.0
+      uses: codecov/codecov-action@v3.1.1 # https://github.com/marketplace/actions/codecov
